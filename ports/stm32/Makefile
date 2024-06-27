@@ -484,7 +484,7 @@ endef
 
 define RUN_STLINK
 	$(ECHO) "Writing $(1) to the board via ST-LINK"
-	$(Q)$(STFLASH) write $(1) $(2)
+	$(Q)$(STFLASH) --connect-under-reset write $(1) $(2)
 endef
 
 define RUN_OPENOCD

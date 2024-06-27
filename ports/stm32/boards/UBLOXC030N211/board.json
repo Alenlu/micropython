@@ -1,0 +1,15 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [],
+    "images": [
+        "stm32f4disc.jpg"
+    ],
+    "mcu": "stm32f437vg",
+    "product": "U-Blox C030 N211",
+    "thumbnail": "",
+    "url": "",
+    "vendor": "U-Blox"
+}
